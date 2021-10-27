@@ -1,1 +1,8 @@
-<p>layout works!</p>
+<form>
+  <label for="search"><i class="fas fa-search fa-fw"></i>Search:</label>
+  <input id="search" type="search" class="form-control" (keyup)="foo($event)" (keydown)="foo($event)" />
+</form>
+
+<hr/>
+
+<p>Cursor position: {{cursorPosition}}</p>
